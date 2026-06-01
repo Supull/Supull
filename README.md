@@ -15,7 +15,7 @@ Addressed [issue #6853](https://github.com/ros2/ros2_documentation/issues/6853) 
 ---
 
 [lingdojo/kana-dojo#18995](https://github.com/lingdojo/kana-dojo/pull/18995) — Extend anime quotes dataset with One Piece entry #134.
-Appended a new JSON object to `community/content/anime-quotes.json` containing Monkey D. Luffy's iconic laugh, resolving [issue #18992](https://github.com/lingdojo/kana-dojo/issues/18992). Validated structural integrity of the JSON array post-edit using `python3 -m json.tool`. `Open · June 1, 2026`
+Appended a new JSON object to `community/content/anime-quotes.json` containing Monkey D. Luffy's laugh, resolving [issue #18992](https://github.com/lingdojo/kana-dojo/issues/18992). Validated structural integrity of the JSON array post-edit using `python3 -m json.tool`. `Merged · June 1, 2026`
 
 ---
 
