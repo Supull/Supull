@@ -1,7 +1,6 @@
 ### Open Source Contributions
 
 ---
-
 **[adam-mcdaniel/sage#84](https://github.com/adam-mcdaniel/sage/pull/84)** — Rename `Type::Unit` to `Type::Nominal`
 Renamed a misleadingly named compiler type in the Sage programming language, resolving [issue #38](https://github.com/adam-mcdaniel/sage/issues/38).
 `Merged · May 18, 2026`
@@ -14,8 +13,14 @@ Addressed [issue #6853](https://github.com/ros2/ros2_documentation/issues/6853) 
 
 ---
 
-[lingdojo/kana-dojo#18995](https://github.com/lingdojo/kana-dojo/pull/18995) — Extend anime quotes dataset with One Piece entry #134.
-Appended a new JSON object to `community/content/anime-quotes.json` containing Monkey D. Luffy's laugh, resolving [issue #18992](https://github.com/lingdojo/kana-dojo/issues/18992). Validated structural integrity of the JSON array post-edit using `python3 -m json.tool`. `Merged · June 1, 2026`
+**[lingdojo/kana-dojo#18995](https://github.com/lingdojo/kana-dojo/pull/18995)** — Extend anime quotes dataset with One Piece entry #134.
+Appended a new JSON object to `community/content/anime-quotes.json` containing Monkey D. Luffy's laugh, resolving [issue #18992](https://github.com/lingdojo/kana-dojo/issues/18992). Validated structural integrity of the JSON array post-edit using `python3 -m json.tool`.
+`Merged · June 1, 2026`
 
 ---
 
+**[dora-rs/dora#2079](https://github.com/dora-rs/dora/pull/2079)** — Fix `validate_ros2_name` rejecting valid leading-underscore ROS2 tokens.
+The token predicate introduced in #2044 required each token to start with an ASCII letter, incorrectly rejecting hidden topic names like `/_ros2cli_node` and `/_internal/state`. Fixed the predicate to only reject digit-leading tokens, matching the actual ROS2 naming spec. Resolves [issue #2076](https://github.com/dora-rs/dora/issues/2076).
+`Merged · June 8, 2026`
+
+---
